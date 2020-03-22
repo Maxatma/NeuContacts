@@ -1,0 +1,43 @@
+PODS:
+  - Bond (6.10.2):
+    - Differ (~> 1.3)
+    - ReactiveKit (~> 3.9)
+  - Differ (1.4.4)
+  - IQKeyboardManager (6.5.5)
+  - ObjectMapper (3.5.2)
+  - ReactiveKit (3.9.7)
+  - Realm (4.3.2):
+    - Realm/Headers (= 4.3.2)
+  - Realm/Headers (4.3.2)
+  - RealmSwift (4.3.2):
+    - Realm (= 4.3.2)
+
+DEPENDENCIES:
+  - Bond (= 6.10.2)
+  - IQKeyboardManager
+  - ObjectMapper
+  - ReactiveKit (= 3.9.7)
+  - RealmSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bond
+    - Differ
+    - IQKeyboardManager
+    - ObjectMapper
+    - ReactiveKit
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  Bond: 5c9d854fb14d3268496ccaf9b7ccd8428ec1609c
+  Differ: 5cd747e2f29c11ea9605eba7cb369df17e2b1ee2
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
+  ReactiveKit: 5f4c440715d671901c382ae6b42ed3337ce4699b
+  Realm: 5e92902e2875dff4bb0fd02f67bb737c3d5db2bc
+  RealmSwift: 9a360fc7bae04fc2e308a34fbd899d5faa2d6b22
+
+PODFILE CHECKSUM: 345388ecc5c51d6f9c110b5307f8c2e8c69f3e9b
+
+COCOAPODS: 1.7.5

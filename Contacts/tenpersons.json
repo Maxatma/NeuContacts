@@ -1,0 +1,112 @@
+[
+    {
+        "contactID": "1",
+        "firstName": "Nikola",
+        "lastName": "Tesla",
+        "phoneNumber": null,
+        "streetAddress1": "Made up Street",
+        "streetAddress2": "1/23",
+        "city": "Vienna",
+        "state": "Austia",
+        "zipCode": "1070"
+    },
+    {
+        "contactID": "2",
+        "firstName": "Albert",
+        "lastName": "Einstein",
+        "phoneNumber": "215-456-6800",
+        "streetAddress1": "Fake Street 3",
+        "streetAddress2": "22/51",
+        "city": "Philadelphia",
+        "state": "USA",
+        "zipCode": "0003"
+    },
+    {
+        "contactID": "3",
+        "firstName": "John",
+        "lastName": "Lennon",
+        "phoneNumber": "256-6800",
+        "streetAddress1": "Fake Street",
+        "streetAddress2": "22/51",
+        "city": "New York",
+        "state": "USA",
+        "zipCode": "10028"
+    },
+    {
+        "contactID": "4",
+        "firstName": "Jon",
+        "lastName": "Gomm",
+        "phoneNumber": "+44 20 7234 3456",
+        "streetAddress1": "Lancashire",
+        "streetAddress2": "41",
+        "city": "Blackpool",
+        "state": "England",
+        "zipCode": "FY1 2GT"
+    },
+    {
+        "contactID": "5",
+        "firstName": "Fake",
+        "lastName": "Friendofmine",
+        "phoneNumber": "4 20 2 3456",
+        "streetAddress1": "Abigel",
+        "streetAddress2": "1",
+        "city": "Kashmir",
+        "state": "England",
+        "zipCode": "FAke"
+    },
+    {
+        "contactID": "6",
+        "firstName": "John",
+        "lastName": "Revelator",
+        "phoneNumber": "208 7234 3456",
+        "streetAddress1": "Lancashire",
+        "streetAddress2": "1",
+        "city": "Boise, Idaho",
+        "state": "USA",
+        "zipCode": "83705"
+    },
+    {
+        "contactID": "7",
+        "firstName": "Son",
+        "lastName": "House",
+        "phoneNumber": "111 72 3456",
+        "streetAddress1": "Best street",
+        "streetAddress2": "6/ 66",
+        "city": "Lyon, Mississippi",
+        "state": "USA",
+        "zipCode": "38645"
+    },
+    {
+        "contactID": "8",
+        "firstName": "John Lee",
+        "lastName": "Hooker",
+        "phoneNumber": "323 3409",
+        "streetAddress1": "Tupelo",
+        "streetAddress2": "2000",
+        "city": "Los Altos, California",
+        "state": "USA",
+        "zipCode": "38645"
+    },
+    {
+        "contactID": "9",
+        "firstName": "Brendan",
+        "lastName": "Gleeson",
+        "phoneNumber": "323 3409",
+        "streetAddress1": "St Killian's Ave",
+        "streetAddress2": "GreenHills",
+        "city": "Dublin",
+        "state": "Ireland",
+        "zipCode": "D6W"
+    },
+    {
+        "contactID": "10",
+        "firstName": "Edward",
+        "lastName": "Norton",
+        "phoneNumber": "295 3429",
+        "streetAddress1": "Fountain Rock Way",
+        "streetAddress2": "7175",
+        "city": "Columbia, Maryland",
+        "state": "USA",
+        "zipCode": "20602"
+    }
+]
