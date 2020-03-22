@@ -1,12 +1,15 @@
 # NeuContacts
 Simple iOS demo Contacts application made for the test task.
 
-The original task you can find in Contacts.pdf file in the current repository
+The original task you can find in Contacts.pdf file in the current repository. 
+
+(to run it, update pods at first)
 
 Technologies used:
 
  - Language: Swift 4.2
  - Main Architectural pattern: MVVM + Router 
+ - Dependency manager: CocoaPods 
  - Database: Realm
  - Reactive Programming: ReactiveKit+Bond
  - Object JSON Mapping: ObjectMapper
