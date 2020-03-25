@@ -11,6 +11,7 @@ Technologies used:
  - Main Architectural pattern: MVVM + Router 
  - Dependency manager: CocoaPods 
  - Database: Realm
+ - UI: Storyboard, xib, Autolayout, UIStackView
  - Reactive Programming: ReactiveKit+Bond
  - Object JSON Mapping: ObjectMapper
  - Other libraries: IQKeyboardManager (handling keyboard appearance issues) 
