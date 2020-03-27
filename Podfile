@@ -1,6 +1,6 @@
 
 use_frameworks!
-platform :ios, '10.0'
+platform :ios, '12.0'
 inhibit_all_warnings!
 
 def main_pods

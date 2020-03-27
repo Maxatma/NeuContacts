@@ -12,12 +12,13 @@ import ReactiveKit
 
 final class ContactCellVM: RCViewModel {
     
-    let name = Observable<String>("")
-    
     private var model: Contact?
     var modelID: String!
 
-    required init(model: Contact) {
+    let name = Observable<String>("")
+    let isSeparatorHidden = Observable<Bool>(false)
+
+    required init(model: Contact, isLast: Bool = false) {
         super.init()
         self.model    = model
         self.modelID  = model.contactID ?? ""
@@ -25,6 +26,7 @@ final class ContactCellVM: RCViewModel {
         let lastname  = model.lastName ?? ""
         let firstName = model.firstName ?? ""
         name.next(firstName + " " + lastname)
+        isSeparatorHidden.next(isLast)
     }
 }
 

@@ -11,7 +11,6 @@ import ReactiveKit
 
 
 final class ContactInfoVM: RCViewModel {
-    
     let firstName       = Observable<String>("")
     let lastName        = Observable<String>("")
     let phoneNumber     = Observable<String>("")

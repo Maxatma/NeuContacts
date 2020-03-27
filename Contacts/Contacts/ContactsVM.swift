@@ -43,8 +43,11 @@ final class ContactsVM: RCViewModel {
     
     private func refreshContacts() {
         do {
-            let contacts = try Array(Realm().objects(Contact.self))
-            contactsVMS.replace(with: contacts.map { ContactCellVM(model: $0) })
+            var contacts = try Array(Realm().objects(Contact.self))
+            let lastItem = contacts.removeLast()
+            var vms = contacts.map { ContactCellVM(model: $0) }
+            vms.append(ContactCellVM(model: lastItem, isLast: true))
+            contactsVMS.replace(with: vms)
         } catch {
             Router.shared.showAlert(message: error.localizedDescription)
         }

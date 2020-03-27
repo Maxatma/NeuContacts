@@ -38,7 +38,27 @@
 		799099C8217DEDF700F728A6 /* UIViewController+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799099C7217DEDF700F728A6 /* UIViewController+HideKeyboard.swift */; };
 		799099CC217E245C00F728A6 /* ContactInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799099CB217E245C00F728A6 /* ContactInfoVC.swift */; };
 		799099CE217E246300F728A6 /* ContactInfoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799099CD217E246300F728A6 /* ContactInfoVM.swift */; };
+		DD26ABA2242CC721005A85CB /* UIButton+NeuMorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD26ABA1242CC721005A85CB /* UIButton+NeuMorphism.swift */; };
+		DD26ABA5242CC749005A85CB /* UIView+NeuMorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD26ABA4242CC749005A85CB /* UIView+NeuMorphism.swift */; };
+		DD26ABA7242CDEDA005A85CB /* NeuTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD26ABA6242CDEDA005A85CB /* NeuTF.swift */; };
+		DD26ABA9242D80D3005A85CB /* AppearanceConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD26ABA8242D80D3005A85CB /* AppearanceConfigurator.swift */; };
+		DD2BF9D3242B0675008D3975 /* IntrinsicTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BF9D2242B0675008D3975 /* IntrinsicTableView.swift */; };
 		DDACCDD0242802CA00B6CCD1 /* Router+Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACCDCF242802CA00B6CCD1 /* Router+Contacts.swift */; };
+		DDDEF7B9242C00BA00C76DC3 /* CalibreBlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDDEF7AB242C00BA00C76DC3 /* CalibreBlackItalic.otf */; };
+		DDDEF7BA242C00BA00C76DC3 /* CalibreLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDDEF7AC242C00BA00C76DC3 /* CalibreLight.otf */; };
+		DDDEF7BB242C00BA00C76DC3 /* CalibreMediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDDEF7AD242C00BA00C76DC3 /* CalibreMediumItalic.otf */; };
+		DDDEF7BC242C00BA00C76DC3 /* CalibreMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDDEF7AE242C00BA00C76DC3 /* CalibreMedium.otf */; };
+		DDDEF7BD242C00BA00C76DC3 /* CalibreLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDDEF7AF242C00BA00C76DC3 /* CalibreLightItalic.otf */; };
+		DDDEF7BE242C00BA00C76DC3 /* CalibreBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDDEF7B0242C00BA00C76DC3 /* CalibreBoldItalic.otf */; };
+		DDDEF7BF242C00BA00C76DC3 /* CalibreThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDDEF7B1242C00BA00C76DC3 /* CalibreThinItalic.otf */; };
+		DDDEF7C0242C00BA00C76DC3 /* CalibreThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDDEF7B2242C00BA00C76DC3 /* CalibreThin.otf */; };
+		DDDEF7C1242C00BA00C76DC3 /* CalibreSemibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDDEF7B3242C00BA00C76DC3 /* CalibreSemibold.otf */; };
+		DDDEF7C2242C00BA00C76DC3 /* CalibreSemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDDEF7B4242C00BA00C76DC3 /* CalibreSemiboldItalic.otf */; };
+		DDDEF7C3242C00BA00C76DC3 /* CalibreBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDDEF7B5242C00BA00C76DC3 /* CalibreBold.otf */; };
+		DDDEF7C4242C00BA00C76DC3 /* CalibreRegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDDEF7B6242C00BA00C76DC3 /* CalibreRegularItalic.otf */; };
+		DDDEF7C5242C00BA00C76DC3 /* CalibreBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDDEF7B7242C00BA00C76DC3 /* CalibreBlack.otf */; };
+		DDDEF7C6242C00BA00C76DC3 /* CalibreRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDDEF7B8242C00BA00C76DC3 /* CalibreRegular.otf */; };
+		E014EF266E55241F5E45B15A /* Pods_Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CA7CD573B94C6339204303 /* Pods_Contacts.framework */; };
 		FC0F56BA11677D7432D6D7D3 /* Pods_Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36CA31AEF40791EEC0FAD9B /* Pods_Contacts.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,7 +99,27 @@
 		799099CD217E246300F728A6 /* ContactInfoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoVM.swift; sourceTree = "<group>"; };
 		AF5A3C205635D6CC6BD978D6 /* Pods-Contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Contacts/Pods-Contacts.debug.xcconfig"; sourceTree = "<group>"; };
 		D36CA31AEF40791EEC0FAD9B /* Pods_Contacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Contacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD26ABA1242CC721005A85CB /* UIButton+NeuMorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+NeuMorphism.swift"; sourceTree = "<group>"; };
+		DD26ABA4242CC749005A85CB /* UIView+NeuMorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+NeuMorphism.swift"; sourceTree = "<group>"; };
+		DD26ABA6242CDEDA005A85CB /* NeuTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuTF.swift; sourceTree = "<group>"; };
+		DD26ABA8242D80D3005A85CB /* AppearanceConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceConfigurator.swift; sourceTree = "<group>"; };
+		DD2BF9D2242B0675008D3975 /* IntrinsicTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinsicTableView.swift; sourceTree = "<group>"; };
 		DDACCDCF242802CA00B6CCD1 /* Router+Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Router+Contacts.swift"; sourceTree = "<group>"; };
+		DDDEF7AB242C00BA00C76DC3 /* CalibreBlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreBlackItalic.otf; sourceTree = "<group>"; };
+		DDDEF7AC242C00BA00C76DC3 /* CalibreLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreLight.otf; sourceTree = "<group>"; };
+		DDDEF7AD242C00BA00C76DC3 /* CalibreMediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreMediumItalic.otf; sourceTree = "<group>"; };
+		DDDEF7AE242C00BA00C76DC3 /* CalibreMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreMedium.otf; sourceTree = "<group>"; };
+		DDDEF7AF242C00BA00C76DC3 /* CalibreLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreLightItalic.otf; sourceTree = "<group>"; };
+		DDDEF7B0242C00BA00C76DC3 /* CalibreBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreBoldItalic.otf; sourceTree = "<group>"; };
+		DDDEF7B1242C00BA00C76DC3 /* CalibreThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreThinItalic.otf; sourceTree = "<group>"; };
+		DDDEF7B2242C00BA00C76DC3 /* CalibreThin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreThin.otf; sourceTree = "<group>"; };
+		DDDEF7B3242C00BA00C76DC3 /* CalibreSemibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreSemibold.otf; sourceTree = "<group>"; };
+		DDDEF7B4242C00BA00C76DC3 /* CalibreSemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreSemiboldItalic.otf; sourceTree = "<group>"; };
+		DDDEF7B5242C00BA00C76DC3 /* CalibreBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreBold.otf; sourceTree = "<group>"; };
+		DDDEF7B6242C00BA00C76DC3 /* CalibreRegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreRegularItalic.otf; sourceTree = "<group>"; };
+		DDDEF7B7242C00BA00C76DC3 /* CalibreBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreBlack.otf; sourceTree = "<group>"; };
+		DDDEF7B8242C00BA00C76DC3 /* CalibreRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreRegular.otf; sourceTree = "<group>"; };
+		E2CA7CD573B94C6339204303 /* Pods_Contacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Contacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0F56BA11677D7432D6D7D3 /* Pods_Contacts.framework in Frameworks */,
+				E014EF266E55241F5E45B15A /* Pods_Contacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +159,7 @@
 				79909975217CE6FC00F728A6 /* Contacts */,
 				79909974217CE6FC00F728A6 /* Products */,
 				351022C4A2E274D8B1005B10 /* Pods */,
+				91D343B91D8F4ECFE19B8B1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,16 +176,14 @@
 			children = (
 				79909976217CE6FC00F728A6 /* AppDelegate.swift */,
 				799099AF217DB04A00F728A6 /* InitialImporter.swift */,
+				DD26ABA8242D80D3005A85CB /* AppearanceConfigurator.swift */,
 				DDACCDCE242802BB00B6CCD1 /* Router */,
 				799099CF217E247900F728A6 /* ContactInfo */,
 				799099C2217DE73E00F728A6 /* ContactCreation */,
 				79909995217D214B00F728A6 /* Contacts */,
 				7990998C217CEF3000F728A6 /* Entity */,
 				799099AE217D2EA800F728A6 /* Utils */,
-				7990997A217CE6FC00F728A6 /* Main.storyboard */,
-				7990997D217CE6FE00F728A6 /* Assets.xcassets */,
-				7990998D217D0E0900F728A6 /* tenpersons.json */,
-				7990997F217CE6FE00F728A6 /* LaunchScreen.storyboard */,
+				DDDEF7C7242C00E000C76DC3 /* Resources */,
 				79909982217CE6FE00F728A6 /* Info.plist */,
 			);
 			path = Contacts;
@@ -162,8 +202,8 @@
 		79909995217D214B00F728A6 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				79909991217D213F00F728A6 /* ContactsVC.swift */,
 				79909993217D214600F728A6 /* ContactsVM.swift */,
+				79909991217D213F00F728A6 /* ContactsVC.swift */,
 				7990999A217D271D00F728A6 /* ContactCell */,
 			);
 			path = Contacts;
@@ -195,8 +235,10 @@
 		799099AE217D2EA800F728A6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				DD26ABA3242CC72D005A85CB /* Neu */,
 				7990999F217D2CE000F728A6 /* ReactiveClasses */,
 				799099C5217DE8D900F728A6 /* UITableView+Bond.swift */,
+				DD2BF9D2242B0675008D3975 /* IntrinsicTableView.swift */,
 				799099BE217DE65A00F728A6 /* UIApplication+Extensions.swift */,
 				799099BC217DE4BF00F728A6 /* UIStoryboard+Extensions.swift */,
 				799099AC217D2EA500F728A6 /* UITableView+Extensions.swift */,
@@ -218,8 +260,8 @@
 		799099C2217DE73E00F728A6 /* ContactCreation */ = {
 			isa = PBXGroup;
 			children = (
-				799099C0217DE73300F728A6 /* ContactCreationVC.swift */,
 				799099C3217DE74D00F728A6 /* ContactCreationVM.swift */,
+				799099C0217DE73300F728A6 /* ContactCreationVC.swift */,
 			);
 			path = ContactCreation;
 			sourceTree = "<group>";
@@ -227,10 +269,28 @@
 		799099CF217E247900F728A6 /* ContactInfo */ = {
 			isa = PBXGroup;
 			children = (
-				799099CB217E245C00F728A6 /* ContactInfoVC.swift */,
 				799099CD217E246300F728A6 /* ContactInfoVM.swift */,
+				799099CB217E245C00F728A6 /* ContactInfoVC.swift */,
 			);
 			path = ContactInfo;
+			sourceTree = "<group>";
+		};
+		91D343B91D8F4ECFE19B8B1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2CA7CD573B94C6339204303 /* Pods_Contacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD26ABA3242CC72D005A85CB /* Neu */ = {
+			isa = PBXGroup;
+			children = (
+				DD26ABA6242CDEDA005A85CB /* NeuTF.swift */,
+				DD26ABA1242CC721005A85CB /* UIButton+NeuMorphism.swift */,
+				DD26ABA4242CC749005A85CB /* UIView+NeuMorphism.swift */,
+			);
+			path = Neu;
 			sourceTree = "<group>";
 		};
 		DDACCDCE242802BB00B6CCD1 /* Router */ = {
@@ -240,6 +300,47 @@
 				DDACCDCF242802CA00B6CCD1 /* Router+Contacts.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		DDDEF7AA242C00BA00C76DC3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DDDEF7C8242C027700C76DC3 /* Calibre */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DDDEF7C7242C00E000C76DC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7990997A217CE6FC00F728A6 /* Main.storyboard */,
+				7990997D217CE6FE00F728A6 /* Assets.xcassets */,
+				7990998D217D0E0900F728A6 /* tenpersons.json */,
+				DDDEF7AA242C00BA00C76DC3 /* Fonts */,
+				7990997F217CE6FE00F728A6 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DDDEF7C8242C027700C76DC3 /* Calibre */ = {
+			isa = PBXGroup;
+			children = (
+				DDDEF7AB242C00BA00C76DC3 /* CalibreBlackItalic.otf */,
+				DDDEF7AC242C00BA00C76DC3 /* CalibreLight.otf */,
+				DDDEF7AD242C00BA00C76DC3 /* CalibreMediumItalic.otf */,
+				DDDEF7AE242C00BA00C76DC3 /* CalibreMedium.otf */,
+				DDDEF7AF242C00BA00C76DC3 /* CalibreLightItalic.otf */,
+				DDDEF7B0242C00BA00C76DC3 /* CalibreBoldItalic.otf */,
+				DDDEF7B1242C00BA00C76DC3 /* CalibreThinItalic.otf */,
+				DDDEF7B2242C00BA00C76DC3 /* CalibreThin.otf */,
+				DDDEF7B3242C00BA00C76DC3 /* CalibreSemibold.otf */,
+				DDDEF7B4242C00BA00C76DC3 /* CalibreSemiboldItalic.otf */,
+				DDDEF7B5242C00BA00C76DC3 /* CalibreBold.otf */,
+				DDDEF7B6242C00BA00C76DC3 /* CalibreRegularItalic.otf */,
+				DDDEF7B7242C00BA00C76DC3 /* CalibreBlack.otf */,
+				DDDEF7B8242C00BA00C76DC3 /* CalibreRegular.otf */,
+			);
+			path = Calibre;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,10 +404,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				799099B4217DB85000F728A6 /* ContactCell.xib in Resources */,
+				DDDEF7BD242C00BA00C76DC3 /* CalibreLightItalic.otf in Resources */,
+				DDDEF7BA242C00BA00C76DC3 /* CalibreLight.otf in Resources */,
 				79909981217CE6FE00F728A6 /* LaunchScreen.storyboard in Resources */,
+				DDDEF7C2242C00BA00C76DC3 /* CalibreSemiboldItalic.otf in Resources */,
+				DDDEF7BE242C00BA00C76DC3 /* CalibreBoldItalic.otf in Resources */,
+				DDDEF7B9242C00BA00C76DC3 /* CalibreBlackItalic.otf in Resources */,
 				7990998E217D0E0900F728A6 /* tenpersons.json in Resources */,
+				DDDEF7BC242C00BA00C76DC3 /* CalibreMedium.otf in Resources */,
+				DDDEF7C3242C00BA00C76DC3 /* CalibreBold.otf in Resources */,
+				DDDEF7C6242C00BA00C76DC3 /* CalibreRegular.otf in Resources */,
 				7990997E217CE6FE00F728A6 /* Assets.xcassets in Resources */,
+				DDDEF7C0242C00BA00C76DC3 /* CalibreThin.otf in Resources */,
+				DDDEF7C4242C00BA00C76DC3 /* CalibreRegularItalic.otf in Resources */,
 				7990997C217CE6FC00F728A6 /* Main.storyboard in Resources */,
+				DDDEF7C5242C00BA00C76DC3 /* CalibreBlack.otf in Resources */,
+				DDDEF7C1242C00BA00C76DC3 /* CalibreSemibold.otf in Resources */,
+				DDDEF7BB242C00BA00C76DC3 /* CalibreMediumItalic.otf in Resources */,
+				DDDEF7BF242C00BA00C76DC3 /* CalibreThinItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +474,7 @@
 				799099A8217D2CE000F728A6 /* SelectableTableCell.swift in Sources */,
 				799099AA217D2CE000F728A6 /* RCTableCell.swift in Sources */,
 				79909997217D270A00F728A6 /* ContactCell.swift in Sources */,
+				DD26ABA7242CDEDA005A85CB /* NeuTF.swift in Sources */,
 				799099C4217DE74D00F728A6 /* ContactCreationVM.swift in Sources */,
 				799099C1217DE73300F728A6 /* ContactCreationVC.swift in Sources */,
 				DDACCDD0242802CA00B6CCD1 /* Router+Contacts.swift in Sources */,
@@ -376,7 +492,11 @@
 				799099A7217D2CE000F728A6 /* RCView.swift in Sources */,
 				79909994217D214600F728A6 /* ContactsVM.swift in Sources */,
 				799099B6217DC34E00F728A6 /* Realm+Extensions.swift in Sources */,
+				DD26ABA2242CC721005A85CB /* UIButton+NeuMorphism.swift in Sources */,
+				DD26ABA5242CC749005A85CB /* UIView+NeuMorphism.swift in Sources */,
+				DD2BF9D3242B0675008D3975 /* IntrinsicTableView.swift in Sources */,
 				799099A6217D2CE000F728A6 /* RCViewModel.swift in Sources */,
+				DD26ABA9242D80D3005A85CB /* AppearanceConfigurator.swift in Sources */,
 				799099BD217DE4C000F728A6 /* UIStoryboard+Extensions.swift in Sources */,
 				799099BF217DE65A00F728A6 /* UIApplication+Extensions.swift in Sources */,
 				799099CE217E246300F728A6 /* ContactInfoVM.swift in Sources */,

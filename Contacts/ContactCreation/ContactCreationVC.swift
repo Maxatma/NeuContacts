@@ -11,8 +11,9 @@ import ReactiveKit
 
 
 final class ContactCreationVC: UIViewController {
-    
-    @IBOutlet weak var firstName: UITextField!
+    var viewModel: ContactCreationVM!
+
+    @IBOutlet weak var firstName: NeuTF!
     @IBOutlet weak var lastName: UITextField!
     @IBOutlet weak var phoneNumber: UITextField!
     @IBOutlet weak var streetAddress1: UITextField!
@@ -20,18 +21,15 @@ final class ContactCreationVC: UIViewController {
     @IBOutlet weak var city: UITextField!
     @IBOutlet weak var state: UITextField!
     @IBOutlet weak var zipCode: UITextField!
-    
     @IBOutlet weak var create: UIButton!
-    
-    var viewModel: ContactCreationVM!
     
     
     // MARK: - LifeCycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Create Contact"
         hideKeyboardWhenTappedAround()
-        
         
         firstName.reactive.text.ignoreNil().bind(to: viewModel.firstName).dispose(in: bag)
         lastName.reactive.text.ignoreNil().bind(to: viewModel.lastName).dispose(in: bag)
@@ -44,6 +42,11 @@ final class ContactCreationVC: UIViewController {
         
         create.reactive.tap.bind(to: viewModel.create).dispose(in: bag)
         viewModel.creationEnabled.bind(to: create.reactive.isEnabled).dispose(in: bag)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        create.applyNeumorphismStyleButton()
     }
     
     //MARK: - Private

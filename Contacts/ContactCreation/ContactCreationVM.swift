@@ -26,9 +26,10 @@ final class ContactCreationVM: RCViewModel {
     override init() {
         super.init()
         
-        let fieldSignals = [firstName, lastName, phoneNumber, streetAddress1, streetAddress2, city, state, zipCode].map { $0.toSignal()}
+        let fieldSignals = [firstName, lastName, phoneNumber, streetAddress1, streetAddress2, city, state, zipCode]
+            .map { $0.toSignal()}
         
-        combineLatest(fieldSignals) { (element) -> Bool in
+        combineLatest(fieldSignals) { element -> Bool in
             return element.reduce(true, { value, nextValue in
                 return value && (nextValue.count > 0)
             })

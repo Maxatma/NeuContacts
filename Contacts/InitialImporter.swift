@@ -6,7 +6,6 @@
 //  Copyright © 2018 Aleksandr Zaporozhchenko. All rights reserved.
 //
 
-import Foundation
 import RealmSwift
 
 

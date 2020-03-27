@@ -2,6 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>CalibreBlackItalic.otf</string>
+        <string>CalibreLight.otf</string>
+        <string>CalibreMediumItalic.otf</string>
+        <string>CalibreMedium.otf</string>
+        <string>CalibreLightItalic.otf</string>
+        <string>CalibreBoldItalic.otf</string>
+        <string>CalibreThinItalic.otf</string>
+        <string>CalibreThin.otf</string>
+        <string>CalibreSemibold.otf</string>
+        <string>CalibreSemiboldItalic.otf</string>
+        <string>CalibreBold.otf</string>
+        <string>CalibreRegularItalic.otf</string>
+        <string>CalibreBlack.otf</string>
+        <string>CalibreRegular.otf</string>
+	</array>
+    
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -31,8 +49,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>

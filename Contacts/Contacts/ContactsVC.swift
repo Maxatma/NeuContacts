@@ -12,10 +12,11 @@ import ReactiveKit
 
 final class ContactsVC: UIViewController {
     
-    @IBOutlet weak var table: UITableView!
-    @IBOutlet weak var add: UIBarButtonItem!
-    
     var viewModel: ContactsVM!
+    
+    @IBOutlet weak var table: IntrinsicTableView!
+    @IBOutlet weak var container: UIView!
+    @IBOutlet weak var add: UIButton!
     
     
     // MARK: - LifeCycle
@@ -30,7 +31,12 @@ final class ContactsVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         viewModel.refresh.next()
-        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        container.applyNeumorphismStyle()
+        add.applyNeumorphismStyleButton()
     }
     
     //MARK: - Private
@@ -52,7 +58,9 @@ final class ContactsVC: UIViewController {
             me.viewModel.showContact.next(modelID)
         }
         
-        table.tableFooterView = UIView()
+        let footer = UIView()
+        footer.backgroundColor = .clear
+        table.tableFooterView = footer
     }
 }
 
