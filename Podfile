@@ -8,7 +8,7 @@ def main_pods
 	pod 'Bond', '6.10.2'
 	pod 'ReactiveKit', '3.9.7'
 	pod 'ObjectMapper'
-  pod 'IQKeyboardManager'
+	pod 'IQKeyboardManager'
 end
 
 target 'Contacts' do
